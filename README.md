@@ -54,33 +54,33 @@ php artisan storage:link
 
 
 ## Estrutura do Projeto
-app/ # Lógica da aplicação
-config/ # Configurações do sistema
-database/ # Migrations, seeders e factories
-resources/ # Views, React components e assets
-routes/ # Rotas web e API
-public/ # Arquivos públicos
+- app/ # Lógica da aplicação
+- config/ # Configurações do sistema
+- database/ # Migrations, seeders e factories
+- resources/ # Views, React components e assets
+- routes/ # Rotas web e API
+- public/ # Arquivos públicos
 
 
 ## Banco de Dados
 Configure o banco de dados no arquivo .env:
-DB_DATABASE=nome_do_banco
-DB_USERNAME=usuario
-DB_PASSWORD=senha
+- DB_DATABASE=nome_do_banco
+- DB_USERNAME=usuario
+- DB_PASSWORD=senha
 
 Depois execute:
-php artisan migrate
+- php artisan migrate
 
 Cadastros de teste:
-php artisan db:seed
+- php artisan db:seed
 
 
 ## Executando o Projeto
 Backend
-php artisan serve
+- php artisan serve
 
 Frontend (Vite)
-npm run dev
+- npm run dev
 
 
 ## Licença
@@ -88,8 +88,8 @@ Este projeto está sob a licença MIT.
 
 
 ## Checkout
-Atualize no arquivo `.env` o item MERCADO_PAGO_ACCESS_TOKEN com as credenciais de **TESTE** do Mercado Pago.  
-O sistema utiliza **Checkout Transparente**, com suporte a pagamentos via **PIX** e **Boleto**.  
-Certifique-se de que o **ambiente de teste** esteja devidamente configurado no painel do Mercado Pago.
-Dependência: **mercadopago/dx-php": "^3.8**
+- Atualize MERCADO_PAGO_ACCESS_TOKEN com as credenciais de **TESTE** do Mercado Pago.  
+- O sistema utiliza **Checkout Transparente**, com suporte a pagamentos via **PIX** e **Boleto**.  
+- Certifique-se de que o **ambiente de teste** esteja devidamente configurado no painel do Mercado Pago.
+- Dependência: **mercadopago/dx-php": "^3.8**
 
