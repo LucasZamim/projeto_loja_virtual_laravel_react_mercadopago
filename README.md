@@ -1,5 +1,4 @@
 # 🚀 Projeto Laravel com Breeze e Vite
-
 Este é um projeto desenvolvido com **Laravel**, utilizando **Laravel Breeze** para autenticação e **Vite** para o build de assets frontend.  
 
 
@@ -7,7 +6,6 @@ A aplicação consiste em um sistema de e-commerce simplificado, desenvolvido co
 
 
 ## ⚙️ Requisitos
-
 Antes de iniciar, certifique-se de ter instalado:
 
 - PHP >= 8.2
@@ -17,7 +15,7 @@ Antes de iniciar, certifique-se de ter instalado:
 - MySQL
 
 
-## 🚀 Instalação
+## Instalação
 
 Siga os passos abaixo para rodar o projeto localmente:
 
@@ -44,7 +42,7 @@ php artisan key:generate
 php artisan storage:link
 
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **PHP ^8.2**
 - **Laravel 12**
 - **Laravel Breeze**
@@ -55,7 +53,7 @@ php artisan storage:link
 - **MySQL**
 
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 app/ # Lógica da aplicação
 config/ # Configurações do sistema
 database/ # Migrations, seeders e factories
@@ -64,7 +62,7 @@ routes/ # Rotas web e API
 public/ # Arquivos públicos
 
 
-## 🗄️ Banco de Dados
+## Banco de Dados
 Configure o banco de dados no arquivo .env:
 DB_DATABASE=nome_do_banco
 DB_USERNAME=usuario
@@ -77,7 +75,7 @@ Cadastros de teste:
 php artisan db:seed
 
 
-## ▶️ Executando o Projeto
+## Executando o Projeto
 Backend
 php artisan serve
 
@@ -85,11 +83,11 @@ Frontend (Vite)
 npm run dev
 
 
-## 📄 Licença
+## Licença
 Este projeto está sob a licença MIT.
 
 
-## 📄 Checkout
+## Checkout
 Atualize no arquivo `.env` o item MERCADO_PAGO_ACCESS_TOKEN com as credenciais de **TESTE** do Mercado Pago.  
 O sistema utiliza **Checkout Transparente**, com suporte a pagamentos via **PIX** e **Boleto**.  
 Certifique-se de que o **ambiente de teste** esteja devidamente configurado no painel do Mercado Pago.
